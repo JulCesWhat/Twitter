@@ -13,6 +13,7 @@ class HomeTableViewController: UITableViewController {
     var tweetArray = [NSDictionary]()
     var numberOfTweets: Int = 0
     let myRefreshControl = UIRefreshControl()
+    var userName: String!
 
     override func viewDidLoad() {
         super.viewDidLoad()
